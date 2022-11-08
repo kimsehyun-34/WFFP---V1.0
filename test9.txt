@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<response><header><resultCode>03</resultCode><resultMsg>NO_DATA</resultMsg></header><body><dataType>XML</dataType><items /><numOfRows>4</numOfRows><pageNo>1</pageNo><totalCount>0</totalCount></body></response>
+<response><header><resultCode>10</resultCode><resultMsg>최근 1일 간의 자료만 제공합니다.</resultMsg></header></response>

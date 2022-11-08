@@ -39,8 +39,10 @@ aaaaaaaa = line[700]+line[701]+line[702]+line[703]
 
 #print(a)
 
-#print(aa)
-print(aaa)
+if data6<8:
+    print(aa)
+    if data6<9:
+        print(aaa)
 print(aaaa)
 print(aaaaa)
 print(aaaaaa)
