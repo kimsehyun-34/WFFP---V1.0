@@ -1,8 +1,8 @@
-from odcc import a
+from odcc import p
 
-if a<10:
+if p<10:
     print("ok")
 else:
     print("not")
 
-print(a)
+print(p)
