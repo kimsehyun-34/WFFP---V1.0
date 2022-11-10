@@ -16,7 +16,7 @@ if (d < 10):
     data2 = data1.replace(' ', '')
     print(data2)
 
-if (d > 10):
+if (d > 9):
     a = y, m, d  # 년, 월, 일 data2
     data = str(a)
     data_split = data.split(',')

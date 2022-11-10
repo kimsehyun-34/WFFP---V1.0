@@ -20,49 +20,92 @@ if (data6 < 9):
 
 with open("test11.txt", "r", encoding='utf-8') as f:
     line = f.read()
-d = line[700]+line[701]+line[702]+line[703]
+da = line[700]+line[701]+line[702]+line[703]
+if (line[702] == '<'):
+    da = line[700]+line[701]
+if (line[701] == '.'):
+    da = line[700]
 
 with open("test12.txt", "r", encoding='utf-8') as f:
     line = f.read()
 e = line[700]+line[701]+line[702]+line[703]
+if (line[702] == '<'):
+    e = line[700]+line[701]
+if (line[701] == '.'):
+    e = line[700]
 
 with open("test14.txt", "r", encoding='utf-8') as f:
     line = f.read()
 fa = line[700]+line[701]+line[702]+line[703]
+if (line[702] == '<'):
+    fa = line[700]+line[701]
+if (line[701] == '.'):
+    fa = line[700]
 
 with open("test16.txt", "r", encoding='utf-8') as f:
     line = f.read()
 g = line[700]+line[701]+line[702]+line[703]
+if (line[702] == '<'):
+    g = line[700]+line[701]
+if (line[701] == '.'):
+    g = line[700]
 
 with open("test18.txt", "r", encoding='utf-8') as f:
     line = f.read()
-h = line[700]+line[701]+line[702]+line[703]
-
+ha = line[700]+line[701]+line[702]+line[703]
+if (line[702] == '<'):
+    ha = line[700]+line[701]
+if (line[701] == '.'):
+    ha = line[700]
 
 if (data6 > 22):
     with open("test01.txt", "r", encoding='utf-8') as f:
         line = f.read()
     i = line[700]+line[701]+line[702]+line[703]
+    if (line[702] == '<'):
+        i = line[700]+line[701]
+    if (line[701] == '.'):
+        i = line[700]
 
     with open("test02.txt", "r", encoding='utf-8') as f:
         line = f.read()
     j = line[700]+line[701]+line[702]+line[703]
+    if (line[702] == '<'):
+        j = line[700]+line[701]
+    if (line[701] == '.'):
+        j = line[700]
 
     with open("test03.txt", "r", encoding='utf-8') as f:
         line = f.read()
     k = line[700]+line[701]+line[702]+line[703]
+    if (line[702] == '<'):
+        k = line[700]+line[701]
+    if (line[701] == '.'):
+        k = line[700]
 
     with open("test04.txt", "r", encoding='utf-8') as f:
         line = f.read()
     l = line[700]+line[701]+line[702]+line[703]
+    if (line[702] == '<'):
+        l = line[700]+line[701]
+    if (line[701] == '.'):
+        l = line[700]
 
     with open("test05.txt", "r", encoding='utf-8') as f:
         line = f.read()
     n = line[700]+line[701]+line[702]+line[703]
+    if (line[702] == '<'):
+        n = line[700]+line[701]
+    if (line[701] == '.'):
+        n = line[700]
 
     with open("test06.txt", "r", encoding='utf-8') as f:
         line = f.read()
-    m = line[700]+line[701]+line[702]+line[703]
+    ma = line[700]+line[701]+line[702]+line[703]
+    if (line[702] == '<'):
+        ma = line[700]+line[701]
+    if (line[701] == '.'):
+        ma = line[700]
 
 if data6 < 9:
     print(c)
@@ -71,25 +114,26 @@ if data6 < 9:
         print(b)
         c = float(b)
 
-print(d)
+
+print(da)
 print(e)
 print(fa)
 print(g)
-print(h)
+print(ha)
 
-d = float(d)
+da = float(da)
 e = float(e)
 fa = float(fa)
 g = float(g)
-h = float(h)
+ha = float(ha)
 
 if (data6):
-    p = (d+e+fa+g+h)/6
+    p = (da+e+fa+g+ha)/6
 
 if (data6 < 8):
-    p = (b+c+d+e+fa+g+h)/7
+    p = (b+c+da+e+fa+g+ha)/7
     if (data6 < 9):
-        p = (c+d+e+fa+g+h)/6
+        p = (c+da+e+fa+g+ha)/6
 
 if (data6 > 22):
     i = float(i)
@@ -97,7 +141,7 @@ if (data6 > 22):
     k = float(k)
     l = float(l)
     n = float(n)
-    m = float(m)
-    p = (i+j+k+l+m+n)/6
+    ma = float(ma)
+    p = (i+j+k+l+ma+n)/6
 
 print("평균기온: ", round(p, 1), "°C")
