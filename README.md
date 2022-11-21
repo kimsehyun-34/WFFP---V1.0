@@ -1,4 +1,4 @@
-# WFFP (Weather forecast function parts)
+# WFFP (Weather forecast function parts) BETA -V
 
 일기 예보 기능 부품
 
