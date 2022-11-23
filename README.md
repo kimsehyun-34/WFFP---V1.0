@@ -12,4 +12,5 @@
  - 5차. 사용자 편의 기능 추가
  
  ------------------
-(https://user-images.githubusercontent.com/79848348/203454430-f53a6632-27b3-4146-9df7-293d5f41d061.png)
+
+![화면 캡처 2022-11-23 104424](https://user-images.githubusercontent.com/79848348/203454490-07ca6409-23c1-4c8d-9627-3bbd31ddfc3d.png)
