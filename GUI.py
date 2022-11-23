@@ -51,8 +51,9 @@ def event():
         data6 = data5.replace(' ', '')
         print(data6)
 
-    # 정시간
+    # 1.정시장치 url/ 2.죄회시간
     url1 = ('http://apis.data.go.kr/1360000/VilageFcstInfoService_2.0/getUltraSrtNcst?serviceKey=kFg3740w8oA0URfa6U0acwTHl6OBznrukbTSF5qHxgELxjG2jtx2Z7ozqItFCHb%2FLTqdMYBKqbgoJyxHQSDatA%3D%3D&numOfRows=4&pageNo=1&base_date='+data2+'&base_time='+data6+'00&nx=62&ny=125')
+
     data6_1 = '08'
     data6_2 = '09'
     data6_3 = '11'
@@ -268,12 +269,12 @@ def event():
         p = (i+j+k+l+ma+n)/6
 
     print("평균기온: ", round(p, 1), "°C")
-    button['text'] = ('평균기온:', round(p, 1), '°C')
+    button['text'] = ('평균기온:', round(p, 1), '°C ∓ 1°C')
 
 
 button = Button(tk, text='날씨조회', command=event)
 
 
-button.pack(side=LEFT, padx=10, pady=10)
+button.pack(side=LEFT, padx=20, pady=20)
 
 tk.mainloop()
